@@ -9,7 +9,7 @@
 */
 listint_t *insert_node(listint_t **head, int number)
 {
-	listint_t *copy = *head, *usr;
+	listint_t *copyhead = *head, *usr;
 
 	if (head == NULL)
 	{
