@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 def uppercase(str):
     strup = ""
-    for x in range(len(str)):
-        if ord(str[x]) >= ord('a') and ord(str[x]) <= ord('z'):
-            strup = ord(str[x]) - 32
+    for i in range(len(str)):
+        if ord(str[i]) >= ord('a') and ord(str[i]) <= ord('z'):
+            strup = ord(str[i]) - 32
         else:
-            strup = ord(str[x])
+            strup = ord(str[i])
             print("{:c}".format(strup), end="")
         print()
