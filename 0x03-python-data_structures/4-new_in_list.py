@@ -5,3 +5,5 @@ def new_in_list(my_list, idx, element):
     if idx >= 0 and idx <= len(copylist) - 1:
         copylist[idx] = element
         return copylist
+    else:
+        return my_list
