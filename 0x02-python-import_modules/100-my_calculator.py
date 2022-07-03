@@ -30,6 +30,5 @@ def main():
                 print("{:s} / {:s} = {:d}".format(a, b, div(int(a), int(b))))
 
 
-
 if __name__ == "__main__":
     main()
