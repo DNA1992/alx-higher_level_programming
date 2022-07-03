@@ -1,11 +1,10 @@
 #!/usr/bin/python3
 from add_0 import add
 
-def add():
+def main():
     a = 1
     b = 2
     print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
-    return (a + b)
 
-    if __name__ == "__add__":
-        add()
+    if __name__ == "__main__":
+        main()
