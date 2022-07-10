@@ -2,8 +2,8 @@
 
 
 def uniq_add(my_list=[]):
-    x = 0
-    uniq = set(my_list)
-    for y in uniq:
-        x += y
-    return x
+    r = 0
+    uni = set(my_list)
+    for i in uni:
+        r += i
+    return r
