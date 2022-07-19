@@ -20,4 +20,4 @@ def list_division(my_list_1, my_list_2, list_length):
             if f == 1:
                 f = 0
                 p += [c]
-            return p
+        return p
