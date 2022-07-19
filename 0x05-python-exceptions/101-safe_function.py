@@ -12,6 +12,5 @@ def safe_function(fct, *args):
         print("Exception: {}".format(z), file=sys.stderr)
     if p == 1:
         return result
-    
     else:
         return None
