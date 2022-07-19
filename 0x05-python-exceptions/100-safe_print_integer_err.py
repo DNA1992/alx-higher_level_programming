@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+import sys
 
 
 def safe_print_integer_err(value):
@@ -9,4 +10,4 @@ def safe_print_integer_err(value):
         p = True
     except (ValueError, TypeError) as m:
         print("Exception: {}".format(m), file=sys.stderr)
-    return 
+    return p
