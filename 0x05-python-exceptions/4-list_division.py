@@ -13,6 +13,9 @@ def list_division(my_list_1, my_list_2, list_length):
         except ZeroDivisionError:
             print("division by 0")
             p += [0]
+        except (TypeError):
+            print("wrong type")
+            p += [0]
         except IndexError:
             print("out of range")
             p += [0]
@@ -20,4 +23,4 @@ def list_division(my_list_1, my_list_2, list_length):
             if f == 1:
                 f = 0
                 p += [c]
-        return p
+    return p
