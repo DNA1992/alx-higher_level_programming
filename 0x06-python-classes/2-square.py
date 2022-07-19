@@ -8,7 +8,7 @@ class Square:
     Attributes:
         size (int): Size of square
     """
-    def __init__(self, size=0):def __init__(self, size=0):
+    def __init__(self, size=0):
         """
         Initialize methode
 
